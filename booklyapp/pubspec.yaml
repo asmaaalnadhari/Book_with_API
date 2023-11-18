@@ -1,0 +1,36 @@
+name: booklyapp
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  dio:
+  get_it: ^7.6.0
+  url_launcher: ^6.1.14
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  font_awesome_flutter:
+  go_router:
+  flutter_bloc:
+  bloc:
+  cached_network_image:
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: GT Sectra Fine
+      fonts:
+        - asset: assets/fonts/GT Sectra Fine Regular.ttf
